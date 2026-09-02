@@ -1,0 +1,128 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #f3f4f6;
+}
+
+header {
+    background: #1e293b;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+    header h1 {
+        margin-bottom: 5px;
+    }
+
+main {
+    width: 90%;
+    max-width: 1100px;
+    margin: 30px auto;
+}
+
+.formulario,
+.lista {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #1e293b;
+}
+
+.campo {
+    margin-bottom: 15px;
+}
+
+    .campo label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+
+    .campo input,
+    .campo select {
+        width: 100%;
+        padding: 11px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+.botoes {
+    margin-top: 20px;
+}
+
+button {
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn-salvar {
+    background: #16a34a;
+    color: white;
+}
+
+.btn-cancelar {
+    background: #64748b;
+    color: white;
+}
+
+.btn-editar {
+    background: #2563eb;
+    color: white;
+}
+
+.btn-excluir {
+    background: #dc2626;
+    color: white;
+}
+
+button:hover {
+    opacity: 0.85;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    background: #1e293b;
+    color: white;
+}
+
+th,
+td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+tbody tr:hover {
+    background: #f1f5f9;
+}
+
+@media(max-width: 700px) {
+
+    table {
+        font-size: 12px;
+    }
+
+    th,
+    td {
+        padding: 7px;
+    }
+}
